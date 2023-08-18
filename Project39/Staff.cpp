@@ -5,6 +5,7 @@ Staff::Staff()
 	bonus = 0;
 }
 
+
 Staff::Staff(string name, string position, float salary) :Employee(name,position,salary)
 {
 	this->bonus = bonus;

@@ -6,7 +6,7 @@ Staff::Staff()
 }
 
 
-Staff::Staff(string name, string position, float salary) :Employee(name,position,salary)
+Staff::Staff (string name, string position, float salary) :Employee(name,position,salary)
 {
 	this->bonus = bonus;
 }
